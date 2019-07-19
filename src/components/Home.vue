@@ -5,7 +5,6 @@
       <p>你好啊</p>
       <p>我不好的</p>
     </h1>
-
     <div class="img">
       <img src="../img/1.6.jpg" alt />
       <p>嘻嘻嘻</p>
