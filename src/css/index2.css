@@ -1,0 +1,154 @@
+.scrollable {
+    float:left;
+}
+
+/* prev, next, prevPage and nextPage buttons */
+a.browse {
+    background:url(hori_large.png) no-repeat;
+    display:block;
+    width:30px;
+    height:30px;
+    float:left;
+    margin:40px 10px;
+    cursor:pointer;
+    font-size:1px;
+    position: absolute;
+}
+
+/* right */
+a.right { background-position: 0 -30px; clear:right; margin-right: 200px;margin-top: 130px}
+a.right:hover { background-position:-30px -30px; }
+a.right:active { background-position:-60px -30px; }
+
+
+/* left */
+a.left { margin-left: 0px;margin-left: 300px;margin-top: 130px }
+a.left:hover  { background-position:-30px 0; }
+a.left:active { background-position:-60px 0; }
+
+
+
+
+/*
+  root element for the scrollable.
+  when scrolling occurs this element stays still.
+  */
+  .scrollable {
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width: 1260px;
+    height:300px;
+    
+}
+
+.scrollable .items {
+    width:20000em;
+    position:absolute;
+    clear:both;
+    left: 0;
+}
+
+.items .div {
+    float:left;
+    width:1260px;
+    height: 320px;
+}
+
+.scrollable img {
+    float:left;
+    margin-top: 40px;
+    background-color:#fff;
+    padding:2px;  
+    width:390px;
+    height:220px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+.div p{
+    width: 390px;
+    height: 25px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+.div p:hover{
+    color: red;
+}
+
+.scrollable2{
+    position:relative;
+    overflow:hidden;
+    width: 1200px;
+    height:466px;
+}
+
+.scrollable2 .items2 {
+    width:20000em;
+    position:absolute;
+    clear:both;
+    left: 0;
+}
+.items2 .div2 {
+    float:left;
+    width:1200px;
+    height: 466px;
+}
+
+.scrollable2 img {
+    float:left;
+    margin-top: 40px;
+    background-color:#fff;
+    padding:2px;  
+    width:275px;
+    height:366px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+.div2{
+    height: 466px;
+    width: 275px;
+}
+.div2 p{
+    display: block;
+    margin-top: 20px;
+    width: 275px;
+    height: 25px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+.div2 p:hover{
+    color: red;
+}
+
+a.browse2 {
+    background:url(hori_large.png) no-repeat;
+    display:block;
+    width:30px;
+    height:30px;
+    float:left;
+    margin:40px 10px;
+    cursor:pointer;
+    font-size:1px;
+    position: absolute;
+}
+
+/* right */
+a.right2 { background-position: 0 -30px; clear:right; margin-right: 220px;margin-top: -280px;
+right: 0;}
+a.right2:hover { background-position:-30px -30px; }
+a.right2:active { background-position:-60px -30px; }
+
+
+/* left */
+a.left2{margin-left: 300px;margin-top: 180px;left: 0; }
+a.left2:hover  { background-position:-30px 0; }
+a.left2:active { background-position:-60px 0; }
+
+
+
+
+
+
