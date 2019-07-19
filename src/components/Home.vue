@@ -17,7 +17,7 @@ export default {};
 </script>
 
 <style lang="less" scoped>
-@mainColor: #666;
+@mainColor: #ccc;
 div{
   background: @mainColor;
 }
