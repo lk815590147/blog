@@ -8,12 +8,13 @@
             v-for="(item,index) in categoryList"
             :key="index"
             type="text"
-            :class="{'active': ind == index}"
+            :class="{'active': ind == index }"
             @mouseover="categoryStyle(index,item.id)"
           >{{item}}</button>
         </div>
       </div>
       <div>
+        
         <button
           v-for="(item,index) in categoryList2"
           :key="index"

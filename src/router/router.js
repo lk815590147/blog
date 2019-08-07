@@ -25,8 +25,13 @@ var router=new VueRouter({
         { path:'/route',
           name:'router',
           component: Route },
-        { path: '/tran',component:Transform}
+        { path: '/tran',component:Transform},
+        {
+          path:'/animate',
+          name:'/animate',
+          component:resolve=>require(['../components/animate.vue'],resolve)
+        }
     ]
 })
 
-export default router
+export default router;
