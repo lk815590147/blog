@@ -1,8 +1,10 @@
 {
+    // 预设
     "presets": [
         "env",
         "stage-0"
     ],
+    // 插件
     "plugins": [
         "transform-runtime"
     ]

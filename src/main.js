@@ -41,6 +41,8 @@ import animated from 'animate.css'
 
 Vue.use(animated);
 
+import infiniteScroll from 'vue-infinite-scroll'
+Vue.use(infiniteScroll)
 
 // import VueDropdown from 'vue-dynamic-dropdown'
 
@@ -53,9 +55,11 @@ Vue.component('v-select', vSelect);
 // Vue.component('vue-dropdown', VueDropdown);
 
 
+
 var store = new Vuex.Store({
   state: {
-    count: 0
+    count: 0,
+    date: ''
   },
   mutations: {
     increment(state) {

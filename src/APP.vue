@@ -1,16 +1,25 @@
 <template>
   <div>
+    <!-- <v-page style="float:right"></v-page> -->
+    <!-- <v-render></v-render> -->
+    <wangeditor></wangeditor>
+    <!-- <v-scroll></v-scroll> -->
+    <!-- <v-page></v-page> -->
+    <!-- <v-child></v-child> -->
+    <!-- <v-props :List="list"></v-props> -->
+    <!-- <v-form2></v-form2> -->
+    <!-- <v-date></v-date> -->
     <!-- <v-downloadmenu></v-downloadmenu> -->
     <!-- <v-math></v-math> -->
     <!-- <v-addinput></v-addinput> -->
-    <v-addinput2></v-addinput2>
+    <!-- <v-addinput2></v-addinput2> -->
     <!-- <router-view></router-view> -->
     <!-- <v-computed2></v-computed2> -->
     <!-- <v-form>
       <p>哈哈哈</p>
       <h2 slot="header">标题</h2>
       <h1 slot="footer">底部</h1>
-    </v-form> -->
+    </v-form>-->
     <!-- <v-transition></v-transition> -->
     <!-- <v-filters></v-filters> -->
     <!-- <v-style></v-style> -->
@@ -103,7 +112,8 @@ export default {
           value: "2",
           isChecked: false
         }
-      ]
+      ],
+      list: [{ id: 1, name: "刘" }, { id: 2, name: "凯凯" }]
     };
   },
   methods: {},
@@ -139,10 +149,19 @@ export default {
     VTransition: () => import("./components/transition.vue"),
     VComputed2: () => import("./components/computed2.vue"),
     VForm: () => import("./components/form.vue"),
-    VDownloadmenu:()=>import("./components/downloadmenu.vue"),
-    VMath:()=>import("./components/math.vue"),
-    VAddinput:()=>import("./components/addinput.vue"),
-    VAddinput2:()=>import("./components/addinput2.vue")
+    VDownloadmenu: () => import("./components/downloadmenu.vue"),
+    VMath: () => import("./components/math.vue"),
+    VAddinput: () => import("./components/addinput.vue"),
+    VAddinput2: () => import("./components/addinput2.vue"),
+    VProps: () => import("./components/props.vue"),
+    VForm2: () => import("./components/form2.vue"),
+    VDate: () => import("./components/data.vue"),
+    VChild: () => import("./components/child.vue"),
+    VPage: () => import("./components/page.vue"),
+    VPage2: () => import("./components/page2.vue"),
+    vRender: () => import("./components/render.vue"),
+    vScroll: () => import("./components/scroll.vue"),
+    wangeditor:()=>import("./components/wangeditor.vue")
   },
   methods: {
     check(index) {
