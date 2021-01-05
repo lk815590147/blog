@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "animate.css": "^3.7.2",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -30,7 +30,7 @@
     "webpack-dev-server": "^2.9.3"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "echarts": "^4.2.1",
     "element-ui": "^2.10.1",
     "sass-loader": "^7.1.0",
